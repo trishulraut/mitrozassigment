@@ -6,8 +6,7 @@ using mitrozassigment.Data;
 using System.Data.SqlClient;
 using System.Data;
 using System.Data.Common;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+
 
 namespace mitrozassigment.Models
 {
@@ -16,7 +15,6 @@ namespace mitrozassigment.Models
         public int E_ID { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
-        [RegularExpression(@"\+91[0-9]{10}",ErrorMessage ="Mobile Number is Invalid")]
         public string Mobile_No { get; set; }
         public string Email { get; set; }
         public int DeptId { get; set; }
