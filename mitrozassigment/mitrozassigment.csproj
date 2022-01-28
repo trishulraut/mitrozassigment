@@ -162,6 +162,7 @@
     <Content Include="Content\pages\jquery-confirm-master\text.txt" />
     <Content Include="Content\pages\jquery-confirm-master\themelayout.png" />
     <Content Include="Content\pages\jquery-confirm-master\themes.html" />
+    <Content Include="databasescript.txt" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
