@@ -21,6 +21,8 @@ var saveemployee = function () {
     }
     else if (Mobile_No == "") {
         alert("Please enter  Mobile_No ");
+    } if(Mobile_No == "/[0-9]{10}") {
+        alert("Please enter  Mobile_No ");
     }
     else if (Email == "") {
         alert("Please enter EmailID");
