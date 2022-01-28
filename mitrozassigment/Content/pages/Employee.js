@@ -22,16 +22,12 @@ var saveemployee = function () {
     else if (Mobile_No == "") {
         alert("Please enter  Mobile_No ");
     }
-    else if (Mobile_No == "((\+*)((0[ -]+)*|(91 )*)(\d{12}+|\d{10}+))|\d{5}([- ]*)\d{6}") {
-        alert("Please enter Valid Mobile No");
-    }
     else if (Email == "") {
         alert("Please enter EmailID");
     }
     else if (Email == "/^[A-Za-z\d=#$%@_ -]+$/.test(value);") {
         alert("Please enter valid EmailID");
     }
-
     else if (DeptId == "") {
         alert("Please enter Department ");
     }
@@ -131,3 +127,4 @@ var getdepartmentlist = function () {
         }
     })
 }
+
